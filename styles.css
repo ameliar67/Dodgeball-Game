@@ -1,100 +1,98 @@
-.game_area  {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.game_area {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-h1  {
-    font-family: inter;
+h1 {
+  font-family: inter;
 }
 
-p  {
-    font-family: inter;
+p {
+  font-family: inter;
 }
-
 
 .main_arena {
-    border: 5px solid black;
-    width: 420px;
-    left: 0;
-    height: 420px;
+  border: 5px solid black;
+  width: 420px;
+  left: 0;
+  height: 420px;
 }
 
 #FinishLine {
-    margin-left: 45%;
-    margin-top: 0%;
-    font-weight: bold;
-    color: red;
+  margin-left: 45%;
+  margin-top: 0%;
+  font-weight: bold;
+  color: red;
 }
 
 .player {
-    width: 5vw;
-    height: 5vh;
-    position: relative;
-    top: 366px;
-    color: red;
+  width: 5vw;
+  height: 5vh;
+  position: relative;
+  top: 366px;
+  color: red;
 }
 
 .enemy {
-    width: 5vw;
-    height: 5vh;
-    position: relative;
+  width: 5vw;
+  height: 5vh;
+  position: relative;
 }
 
 #enemy1 {
-    left: 0px;
-    transition-property: left,;
-    transition-duration: 1s;
+  left: 0px;
+  transition-property: left;
+  transition-duration: 1s;
 }
 
-.enemy .dot{
-    background-color: blue;
+.enemy .dot {
+  background-color: blue;
 }
 
 #enemy2 {
-    left: 0px;
-    transition-property: left,;
-    transition-duration: 3s;
+  left: 0px;
+  transition-property: left;
+  transition-duration: 3s;
 }
 
 #enemy3 {
-    left: 0px;
-    transition-property: left,;
-    transition-duration: 3s;
-    display: none;
+  left: 0px;
+  transition-property: left;
+  transition-duration: 3s;
+  display: none;
 }
 
 #enemy4 {
-    left: 0px;
-    top: 40px;
-    transition-property: left,;
-    transition-duration: 3s;
-    display: none;
+  left: 0px;
+  top: 40px;
+  transition-property: left;
+  transition-duration: 3s;
+  display: none;
 }
 
 #enemy5 {
-    left: 0px;
-    top: 160px;
-    transition-property: left,;
-    transition-duration: 3s;
-    display: none;
+  left: 0px;
+  top: 160px;
+  transition-property: left;
+  transition-duration: 3s;
+  display: none;
 }
 
 #enemy6 {
-    left: 0px;
-    top: 220px;
-    transition-property: left,;
-    transition-duration: 3s;
-    
+  left: 0px;
+  top: 220px;
+  transition-property: left;
+  transition-duration: 3s;
 }
 
-.dot    {
-    background-color:red;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: inline-block
+.dot {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
 }
